@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ 
+html {
+  background: #05000a !important;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #05000a !important;
+  color: #ffffff !important;
+}
+ 
+#root {
+  min-height: 100vh;
+  background: #05000a !important;
+}
+ 
+/* Override any Tailwind bg-white or bg-background that sneaks in */
+.bg-background, .bg-white {
+  background-color: #05000a !important;
+}
+ 

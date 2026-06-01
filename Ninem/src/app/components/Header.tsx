@@ -56,7 +56,7 @@ export function Header() {
                 userSelect: "none",
               }}
             >
-              NINTENDO
+              NINEM
             </div>
             <span
               style={{
