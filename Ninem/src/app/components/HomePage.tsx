@@ -31,15 +31,6 @@ export function HomePage() {
       glow: "rgba(255,215,0,0.3)",
     },
     {
-      to: "/games",
-      title: "ARCADE",
-      subtitle: "PLAY NOW",
-      desc: "Classic retro mini-games playable right in your browser. Snake, Breakout, Whack-a-Mole.",
-      icon: "🕹️",
-      color: "#00FF41",
-      glow: "rgba(0,255,65,0.3)",
-    },
-    {
       to: "/emulator",
       title: "EMULATOR",
       subtitle: "UPLOAD & PLAY",

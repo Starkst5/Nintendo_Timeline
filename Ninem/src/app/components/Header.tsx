@@ -8,7 +8,6 @@ export function Header() {
   const navLinks = [
     { path: "/", label: "HOME" },
     { path: "/timeline", label: "HISTORY" },
-    { path: "/games", label: "GAMES" },
     { path: "/emulator", label: "EMULATOR" },
   ];
 

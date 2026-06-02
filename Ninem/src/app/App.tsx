@@ -2,7 +2,6 @@ import { HashRouter, Routes, Route } from "react-router";
 import { Header } from "./components/Header";
 import { HomePage } from "./components/HomePage";
 import { TimelinePage } from "./components/TimelinePage";
-import { GamesPage } from "./components/GamesPage";
 import { EmulatorPage } from "./components/EmulatorPage";
 import { useEffect, useRef } from "react";
 
@@ -88,7 +87,6 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/timeline" element={<TimelinePage />} />
-            <Route path="/games" element={<GamesPage />} />
             <Route path="/emulator" element={<EmulatorPage />} />
           </Routes>
         </div>
